@@ -1,0 +1,62 @@
+body{
+	margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.c{
+	width: 640px;
+	height: 264px;
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+p{
+	position: initial;
+	width: 256px;
+	height: 24px;
+	left: 592px;
+	top: 384px;
+	margin: 35px auto;
+	font-family: Sora;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 20px;
+	letter-spacing: 0em;
+	text-align: center;
+	color: #000000;
+}
+
+input{
+	width: 588px;
+	height: 25px;
+	margin: 10px 20px;
+}
+
+.btn{
+	width: 384px;
+	height: 48px;
+	background: #232529;
+	border-radius: 4px;
+	border: 0;
+	padding: 12px 56px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 147.19%;
+	margin: 25px 140px 250px;
+	text-transform: initial;
+	color: #FFFFFF;
+	}
+
+.btn:hover{
+	background: #254F4C;
+	cursor: pointer; /*Посмотреть свойства cursor*/
+	box-shadow: 4px 0px 20px 3px gold;
+}
+
+h4{
+	margin: 10px 20px;
+}

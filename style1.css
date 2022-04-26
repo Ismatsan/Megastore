@@ -1,0 +1,69 @@
+body {
+    margin: 0;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.c{
+	width: 700px;
+	height: 410px;
+	background: #FFFFFF;
+	border-radius: 4px;
+}
+
+h3{
+	margin: 35px auto;
+	text-align: center;
+}
+
+h5{
+	margin: 10px auto;
+	color: #A9A9A9;
+	text-align: center;
+}
+
+.blocks{
+	width: 480px;
+	height: 200px;
+	border: 1px solid white;
+	padding: 5px;
+	margin: 0 auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.blocks div{
+	width: 100px;
+	height: 100px;
+	border: 2px solid #A9A9A9;
+	padding: 8px;
+	margin: 5px;
+}
+
+.blocks h1{
+	text-align: center;
+}
+
+.btn{
+	width: 384px;
+	height: 46px;
+	background: #232529;
+	border-radius: 4px;
+	border: 0;
+	padding: 5px 56px;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 147.19%;
+	margin: 0 161px;
+	text-transform: initial;
+	color: #FFFFFF;
+}
+
+.btn:hover{
+	background: #254F4C;
+	cursor: pointer; /*Посмотреть свойства cursor*/
+	box-shadow: 4px 0px 20px 3px gold;
+}
